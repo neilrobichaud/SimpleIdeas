@@ -4,15 +4,17 @@ A minimal Next.js app using TypeScript and the App Router.
 
 ## Getting started
 
-Install Node.js 20.9 or later, then run:
+Install Node.js 20.9 or later, copy `.env.example` to `.env.local`, and add a Neon Postgres connection string as `DATABASE_URL`. Then run:
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The landing page links to `/ideas`, where the form and idea board are currently a front-end preview.
+Open [http://localhost:3000](http://localhost:3000). The landing page links to `/ideas`, where visitors can save short public ideas.
 
-## Next step for public ideas
+## Ideas storage
 
-New entries currently live only in page memory and disappear on refresh. To publish ideas for everyone, connect a database and add a server-side save/list flow. Add moderation and spam protection before accepting public submissions.
+Ideas are stored in Neon Postgres. The `ideas` table is created automatically the first time the idea board is opened. Set `DATABASE_URL` in local development and in the Vercel project's Preview and Production environments.
+
+Ideas are public and submissions are limited to 240 characters. The board currently displays the 100 most recent saved ideas. Do not submit private information.
