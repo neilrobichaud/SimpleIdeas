@@ -11,3 +11,5 @@ yarn-debug.log*
 pnpm-debug.log*
 *.tsbuildinfo
 .vercel
+
+.vercel

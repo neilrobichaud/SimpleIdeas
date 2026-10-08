@@ -2,7 +2,7 @@
 // without a remote image request, account, or image service.
 const art: Record<string, string> = {
   "McDonald's":"🍔","Wendy's":"🍟","A&W":"🥤","Burger King":"👑","Five Guys":"🍔",
-  Toronto:"🏙️",Vancouver:"🌊",Montreal:"🎨",Calgary:"🤠",Halifax:"⚓",
+  Toronto:"🏙️",Vancouver:"🌊",Montreal:"🎨",Calgary:"🤠",Halifax:"⚓",Victoria:"🏛️",Winnipeg:"🌾",
   "Kensington Market":"🛍️","The Beaches":"🏖️","Queen West":"🎭",Yorkville:"💎","Distillery District":"🧱",
   Popcorn:"🍿",Doritos:"🔺",Pretzels:"🥨","Potato chips":"🥔",Nachos:"🧀",
   "Mario Kart 8":"🏎️","Overcooked 2":"🍳",Minecraft:"⛏️","Super Smash Bros. Ultimate":"🥊","It Takes Two":"🧸",
